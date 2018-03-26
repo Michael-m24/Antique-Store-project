@@ -1,0 +1,25 @@
+﻿@model StoreProject.Models.Product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Product</title>
+</head>
+<body>
+    <div>
+        model :@Model.Model
+        <br />
+        quantity :@Model.Quantity
+        <br />
+        type:@Model.Type
+        @Html.ValidationSummary()
+    </div>
+</body>
+</html>
+

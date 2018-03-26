@@ -1,0 +1,187 @@
+﻿
+
+
+
+
+
+
+
+
+
+@{
+    ViewBag.Title = "Enter";
+    Layout = "~/Views/Shared/CustomersBar.cshtml";
+}
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/bootstrap.js"></script>
+
+<!DOCTYPE html>
+
+<style>
+    body {
+        background-image: url("https://images4.alphacoders.com/594/594600.jpg");
+        background-size: cover;
+    }
+
+   
+    tr{
+        color: rgb(158, 169, 169);
+    }
+
+    .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr {
+        background-color: #fff;
+       
+    }
+
+        .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+            background-color: #fff;
+          
+        } 
+
+    
+    
+    @@media screen and (max-width: 600px) {
+        table #cart tbody td .form-control {
+            width: 120%;
+            display: inline !important;
+       
+        }
+
+        .actions .btn {
+            width: 20%;
+            margin: 1.5em 0;
+        }
+
+        .actions .btn-info {
+            float: left;
+        }
+
+        .actions .btn-danger {
+            float: right;
+        }
+
+        table#cart thead {
+            display: none;
+        }
+
+        table#cart tbody td {
+            display: block;
+            padding: .6rem;
+            min-width: 120px;
+        }
+
+        table#cart tbody tr td:first-child {
+            background: #333;
+            color: #fff;
+        }
+
+        table#cart tbody td:before {
+            content: attr(data-th);
+            font-weight: bold;
+            display: inline-block;
+            width: 4rem;
+        }
+
+
+
+        table#cart tfoot td {
+            display: block;
+        }
+
+            table#cart tfoot td .btn {
+                display: block;
+            }
+    }
+</style>
+
+
+<html>
+<body>
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+    <table id="cart" class="table table-hover table-condensed">
+
+     
+           
+    </table>
+
+
+    <script lang="javascript">
+
+        $.get("getCartProductsByJSON", null, bindData);
+
+        function bindData(CartList) {
+            window.CartList = CartList;
+            $("#cart").find("tr:gt(0)").remove();
+            var tbl = $("#cart");
+            var Tprice=0;
+            for (i = 0; i < CartList.length; i++) {
+                var subtotal = CartList[i].Price * CartList[i].CartQuantity;
+                var newRow = '<thead> <tr><th style="width:50%">Product</th><th style="width:10%">Price</th><th style="width:8%">Quantity</th><th style="width:22%" class="text-center">Subtotal</th><th style="width:10%"></th></tr></thead><tbody><tr><td data-th="Product"><div class="row"><div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive" /></div><div class="col-sm-10"><h4 class="nomargin">' + CartList[i].Model + '</h4><p>' + CartList[i].Type + '</p>' +
+                    ' </div></div></td><td data-th="Price">$' + CartList[i].Price + '</td><td data-th="Quantity" class="text-center">' + CartList[i].CartQuantity +
+                    '</td><td data-th="Subtotal" class="text-center">'+subtotal+'$</td><td class="actions" data-th=""><button class="btn btn-danger btn-sm" onClick="RemoveFromCart(' + i + ')" onClick="href="@Url.Action("ShoppingCart", "Buying")""><i class="fa fa-trash-o"></i></button>' +
+                    '</td></tr> </tbody>'
+                 
+                Tprice = Tprice + subtotal;
+
+
+
+
+
+            tbl.append(newRow);
+            }
+           var newRow ='<tfoot><tr class="visible-xs">< td class="text-center" > <strong>Total'+Tprice+'</strong></td></tr></tfoot><tfoot><tr>' +
+               '< td > <a href="@Url.Action("Shop", "Buying")" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>' +
+               ' < td colspan= "2" class="hidden-xs" ></td ><td class="hidden-xs text-center"><strong>Total ' + Tprice + '$</strong></td>' +
+                    ' < td > <a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td ></tr> </tfoot>'
+            tbl.append(newRow);
+            $("#status").text("")
+
+
+        }
+
+
+          function RemoveFromCart(index) {
+              var Cart = window.CartList[index];
+            console.log(Cart);
+
+            var url = '@Url.Action("RemoveFromCart", "Buying")';
+                var data = { Model: Cart.Model, Type: Cart.Type };//, price: product.price };
+                $.post(url, data, null);
+
+                reloadPage();
+            }
+
+          function reloadPage() {
+              window.location.reload()
+          }
+
+
+    </script>
+
+
+
+
+
+
+
+</div>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

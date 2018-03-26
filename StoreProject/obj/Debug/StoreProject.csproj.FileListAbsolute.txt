@@ -1,0 +1,227 @@
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\csc.exe
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\vbc.exe
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\StoreProject.dll.config
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\StoreProject.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\StoreProject.pdb
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Antlr3.Runtime.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\EntityFramework.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\EntityFramework.SqlServer.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.Web.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Newtonsoft.Json.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.Helpers.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.Mvc.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.Optimization.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.Razor.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.WebPages.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\WebGrease.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\EntityFramework.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\EntityFramework.SqlServer.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.Web.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.Helpers.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.Mvc.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.Optimization.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.Razor.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.WebPages.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Antlr3.Runtime.pdb
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\bin\Newtonsoft.Json.xml
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\obj\Debug\StoreProject.csprojResolveAssemblyReference.cache
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\obj\Debug\StoreProject.dll
+C:\Users\קריסטינה\Desktop\VISUAL S\StoreProject\StoreProject\obj\Debug\StoreProject.pdb
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\csc.exe
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\vbc.exe
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.dll.config
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.pdb
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Antlr3.Runtime.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Web.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Newtonsoft.Json.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Helpers.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Mvc.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Optimization.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Razor.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\WebGrease.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Web.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Helpers.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Mvc.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Optimization.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Razor.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Antlr3.Runtime.pdb
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\bin\Newtonsoft.Json.xml
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.dll
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.pdb
+C:\Users\Mishapc\Desktop\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.csprojResolveAssemblyReference.cache
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\csc.exe
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\vbc.exe
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.dll.config
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.pdb
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Antlr3.Runtime.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Web.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Newtonsoft.Json.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Helpers.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Mvc.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Optimization.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Razor.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\WebGrease.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Web.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Helpers.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Mvc.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Optimization.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Razor.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Antlr3.Runtime.pdb
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Newtonsoft.Json.xml
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.csprojResolveAssemblyReference.cache
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.dll
+C:\Users\Mishapc\Desktop\Store Project related\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.pdb
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\csc.exe
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\vbc.exe
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.dll.config
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\StoreProject.pdb
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Antlr3.Runtime.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Web.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Newtonsoft.Json.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Helpers.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Mvc.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Optimization.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Razor.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\WebGrease.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.Web.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Helpers.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Mvc.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Optimization.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.Razor.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Antlr3.Runtime.pdb
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\bin\Newtonsoft.Json.xml
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.csprojResolveAssemblyReference.cache
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.dll
+C:\Users\Mishapc\Desktop\MISHA\לימודים\תואר\שנה 3\סמסטר א'\תקשורת מחשבים\Store Project related\StoreProject (4)\StoreProject\StoreProject\obj\Debug\StoreProject.pdb

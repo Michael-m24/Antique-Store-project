@@ -1,0 +1,117 @@
+﻿
+
+@model StoreProject.Models.Customers
+@{
+    Layout = Layout = "~/Views/Shared/EnterBar.cshtml";
+    ViewBag.Title = "Register";
+}
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<style>
+    body {
+        background-image: url("https://images4.alphacoders.com/594/594600.jpg");
+        background-size: cover;
+    }
+</style>
+
+
+<script language="javascript">
+
+    function confirmPassword() {
+        var password = document.getElementById("CustomerPassword").value;
+        var password_con = document.getElementById("confirm_password").value;
+        if (password != password_con) {
+            passwordException.innerHTML = "Password Not Matching!";
+        }
+        else
+            passwordException.innerHTML = '';
+
+    }
+     function confirmEmail() {
+         var email = document.getElementById("Email").value;
+         var confemail = document.getElementById("EmailConfirmation").value;
+         if (email != confemail) {
+             emailConfirmationException.innerHTML = "Email Not Matching!";
+         }
+         else
+             emailConfirmationException.innerHTML = '';
+
+     }
+
+</script>
+
+<html>
+<body>
+
+    @using (Html.BeginForm("SubmitR", "Home", FormMethod.Post))
+    {
+
+        <fieldset>
+
+            <div>
+                <table>
+                    <tr>
+                        <th><legend><font color="#8c8c8c">Register</font></legend></th>
+                    </tr>
+                    <tr>
+                        <td ><font color="#8c8c8c">First Name</font></td>
+                        <td>@Html.TextBoxFor(m => m.FirstName)</td>
+                        <td><span style="color:steelblue">@Html.ValidationMessageFor(x => x.FirstName)</span></td>
+                    </tr>
+                   
+                    <tr>
+                        <td><font color="#8c8c8c">Last Name</font></td>
+                        <td>@Html.TextBoxFor(m => m.LastName)</td>
+                        <td><span style="color:steelblue">@Html.ValidationMessageFor(x => x.LastName)</span></td>
+                    </tr>
+                    <tr>
+                        <td><font color="#8c8c8c">Email Address</font></td>
+                        <td>@Html.TextBoxFor(m => m.Email)</td>
+                        <td><span style="color:steelblue">@Html.ValidationMessageFor(x => x.Email)</span></td>
+
+                        <td>
+                            @if (TempData["Error1"] != null)
+                {
+                                <p class="alert alert" id="failMessage" style="color:#B22222">@TempData["Error1"]</p>
+                            }
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><font color="#8c8c8c">Confirm Email Address</font></td>
+                        <td><input type="text" id="EmailConfirmation" onkeyup="confirmEmail()" /></td>
+                        <td id="emailConfirmationException"><span style="color:steelblue"></span></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td><font color="#8c8c8c">Password</font></td>
+                        <td>@Html.PasswordFor(m => m.CustomerPassword)</td>
+                        <td><span style="color:red">@Html.ValidationMessageFor(x => x.CustomerPassword)</span></td>
+                    </tr>
+                    <tr>
+                        <td><font color="#8c8c8c">Confirm Password</font></td>
+                        <td><input type="password" id="confirm_password" onkeyup="validatePassword()" /></td>
+                        <td id="passwordException"></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td><font color="#8c8c8c">Phone number</font></td>
+                        <td>@Html.TextBoxFor(m => m.PhoneNumber)</td>
+                        <td><span style="color:steelblue">@Html.ValidationMessageFor(x => x.PhoneNumber)</span></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" class="btn btn-primary" name="SubmitRegister" value="Register" />
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+    }
+</body>
+</html>

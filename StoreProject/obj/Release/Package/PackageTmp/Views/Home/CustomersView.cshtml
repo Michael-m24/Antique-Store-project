@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Enter";
+    Layout = "~/Views/Shared/CustomersBar.cshtml";
+}
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/bootstrap.js"></script>
+<!DOCTYPE html>
+
+
+<style>
+    body {
+        background-image: url("https://images4.alphacoders.com/594/594600.jpg");
+        background-size: cover;
+    }
+</style>
+
+
+
+<html>
+
+<body>
+<div class="jumbotron">
+    @{
+        string name = "";
+        if (Session["UserName"] != null)
+        {
+            name = Session["UserName"].ToString();
+        }
+    }
+    <h2>Hello @name </h2>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <p style="color:#e0a312"> Press the "Shop" button to see what we have to offer</p>
+    </div>
+    </div>
+    
+        
+        
+       
+   
+
+
+</body>
+</html>

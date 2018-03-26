@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "Enter";
+    Layout = "~/Views/Shared/EnterBar.cshtml";
+}
+
+<!DOCTYPE html>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+<script language="javascript">
+    $(document).ready(function () {
+        $(".slider #1").fadeIn(5000);
+        $(".slider #1").delay(700).fadeOut(1000);
+
+        var sc = $(".slider img").size();
+        var count = 2;
+
+        setInterval(function () {
+            $(".slider #" + count).fadeIn(5000);
+            $(".slider #" + count).delay(700).fadeOut(1000);
+
+            if (count == sc) {
+                count = 1;
+            }
+            else {
+                count = count + 1;
+            }
+        }, 6500);
+    })
+</script>
+
+<style>
+    body {
+        background-image: url("https://images4.alphacoders.com/594/594600.jpg");
+        background-size: cover;
+    }
+    .slider{
+        width: 800px;
+        height: 350px;
+        overflow:hidden;
+        margin: 30px auto;
+      
+    }
+    .slider img{
+        width: 800px;
+        height: 350px;
+        display: none;
+    }
+</style>
+<h1 align="center"><span style="color:white">Antiques for Sale</span></h1>
+<h2 align="center"><span style="color:white">For continue login or register</span></h2>
+
+<html>
+
+<body >
+    <form action="@Url.Action("Login","Home")" method="post">
+        <div align="center">
+            <input id="Submit1" type="submit"  class="btn btn-primary" name="Login" value="Login" href="@Url.Action("Login", "Home")" />
+        </div>
+        </form>
+        <form action="@Url.Action("Register","Home")" method="post">
+            <div align="center">
+                <input id="Submit1" type="submit" class="btn-link" name="Register" value="Register" href="@Url.Action("Register", "Home")" />
+            </div>
+        </form>
+
+
+    <div class="slider">
+        <div><img id ="1" src="https://upload.wikimedia.org/wikipedia/commons/2/22/NHM_Antiquities_Group.jpg" title="first"></div>
+        <div><img id="2" src="http://www.christies.com/media-library/images/features/articles/2015/09/mark-farley/mark-farley-lead.jpg" title="second"></div>
+        <div><img  id="3" src="http://2.bp.blogspot.com/-rTEuazkTJyM/T3CBbFJXqzI/AAAAAAAACq0/kPcjaHad8x8/s1600/sacrophagus.jpg" title="third"></div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

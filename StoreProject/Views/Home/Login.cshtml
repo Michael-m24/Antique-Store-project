@@ -1,0 +1,70 @@
+﻿@model StoreProject.Models.Employee
+@{
+    Layout = Layout = "~/Views/Shared/EnterBar.cshtml"; 
+    ViewBag.Title = "Login";
+}
+<style>
+    body {
+        background-image: url("https://images4.alphacoders.com/594/594600.jpg");
+        background-size: cover;
+    }
+
+</style>
+
+
+<html>
+
+<body>
+
+@using (Html.BeginForm("SubmitL", "Home", FormMethod.Post))
+{
+
+    <div>
+    <fieldset>
+        <legend style="color:white">Login:</legend>
+        <table>
+            <tr>
+                <td style="color:#F0E68C">Email:</td>
+                <td><input  id='logEmail' type='text' name="Email" value='Enter Email' /></td>
+                    
+            </tr>
+            <tr>
+                <td style="color:#F0E68C">Password:</td>
+                <td><input id='Password' type='password' name="Password" value='Enter Password' /></td>
+
+                <td>
+                    @if (TempData["Error"] != null)
+                {
+                        <p class="alert alert" id="failMessage" style="color:#B22222">@TempData["Error"]</p>
+                    }
+                </td>
+            </tr>
+
+            <tr>
+                <td >
+                    <div class="radio">
+                        <label>
+                            <input id="Radio" type="radio" name="EmpRadio" /><label style="color:#F0E68C">manger</label>
+                        </label>
+                    </div>
+
+                    <div class="radio">
+                        <label>
+                            <input id="Radio" type="radio" name="EmpRadio2" /><label style="color:#F0E68C">Customer</label>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit"  class="btn btn-primary" name="SubmitL" value="Enter" /></td>
+
+            </tr>
+           
+        </table>
+    </fieldset>
+</div>
+}
+</body>
+
+</html>

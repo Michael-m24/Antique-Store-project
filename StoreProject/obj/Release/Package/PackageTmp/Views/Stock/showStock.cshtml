@@ -1,0 +1,107 @@
+﻿@model StoreProject.Models.Product
+@{
+    ViewBag.Title = "Enter";
+    Layout = "~/Views/Shared/EmployeeBar.cshtml";
+}
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<!DOCTYPE html>
+
+<style>
+    body {
+        background-image: url("https://images4.alphacoders.com/594/594600.jpg");
+        background-size: cover;
+    }
+
+</style>
+<h1 align="center"><span style="color:white">Antiques Stock</span></h1>
+
+<html>
+
+<body>
+    <div align="center">
+        <form id="addp">
+            <table>
+                <tr>
+                    <td style="color:#F0E68C" align="center"> Enter Model:</td>
+                    <td> @Html.TextBoxFor(m => m.Model) @Html.ValidationMessageFor(x => x.Model)</td>
+                </tr>
+                <tr>
+                    <td style="color:#F0E68C" align="center"> ENTER Quantity:</td>
+                    <td>@Html.TextBoxFor(m => m.Quantity) @Html.ValidationMessageFor(x => x.Quantity)</td>
+                </tr>
+                <tr>
+                    <td style="color:#F0E68C" align="center">ENTER Type:</td>
+                    <td> @Html.TextBoxFor(m => m.Type) @Html.ValidationMessageFor(x => x.Type)</td>
+                </tr>
+
+
+            </table>
+        </form>
+        <input id="Submit1" type="button" value="Restocke" onclick="sendData()" />
+
+
+    </div>
+  
+
+    <div id="status"></div>
+
+        <table  id="stockTable" align="center">
+            <tr>
+                <td style="color:#F0E68C">Model</td>
+                <td style="color:#F0E68C">Type</td>
+                <td style="color:#F0E68C">Quantity</td>
+            
+            </tr>
+
+        </table>
+
+
+        <script language="javascript">
+            $("#status").text("Loading Table...");
+            $.get("GetProductJSON", null, bindData);
+            function bindData(product) {
+                $("#stockTable").find("tr:gt(0)").remove();
+                var tbl = $("#stockTable");
+                for (i = 0; i < product.length; i++) {
+                    var newRow="<tr>" +
+                    "<td id='mod'>" + product[i].Model + "</td>" +
+                    "<td>" + product[i].Type + "</td>" +
+                    "<td id='qua'>" + product[i].Quantity + "</td>" +        
+                    "<td id='lbl" + i + "'></td>" +
+                    "</tr>"
+                    tbl.append(newRow);
+                   
+                }
+                $("#status").text("");
+            }
+
+            function sendData() {
+                $("#status").text("Saving product please wait.....");
+                var frmData = $("#addp").serialize();
+                $.post("Submit",frmData,bindData);
+                $("#Model").val(" ");
+                $("#Quantity").val(" ");
+                $("#Type").val(" ");
+            }
+
+
+
+
+
+        </script>
+
+
+
+
+
+    
+
+
+</body>
+
+
+
+</html>
+

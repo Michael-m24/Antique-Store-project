@@ -1,0 +1,295 @@
+﻿@{
+    ViewBag.Title = "CustomersView";
+    Layout = "~/Views/Shared/CustomersBar.cshtml";
+}
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/bootstrap.js"></script>
+<!DOCTYPE html>
+
+
+<style>
+    body {
+        background-image: url("https://images4.alphacoders.com/594/594600.jpg");
+        background-size: cover;
+    }
+
+
+
+body {
+/*background-image: url(https://subtlepatterns.com/patterns/kindajean.png);*/
+}
+
+.block {
+//	display: block;
+	//position: relative;
+	//width: 295px;
+	//border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.product {
+	display: block;
+	position: relative;
+}
+
+.product img {
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+    .info {
+        display: block;
+        position: relative;
+        padding: 20px;
+        width: 300px;
+        margin: 10px;
+        float: left;
+        background: #fff;
+    }
+
+.details {
+	border-top: 1px solid #e5e5e5;
+	padding: 18px 20px;
+}
+
+.buttons {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: rgba(255, 255, 255, .5);
+	opacity: 0;
+	-webkit-transition: opacity .25s ease-in;
+	-ms-transition: opacity .25s ease-in;
+	-moz-transition: opacity .25s ease-in;
+	-o-transition: opacity .25s ease-in;
+	transition: opacity .25s ease-in;
+}
+
+.product:hover .buttons, .product:hover a {
+	opacity: 1;
+}
+
+.buttons a {
+	display: block;
+	position: absolute;
+	left: 50px;
+	width: 155px;
+	border-radius: 2px;
+	//padding: 15px 10px 15px 65px;
+	//font-family: Helvetica, sans-serif;
+
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	opacity: 0;
+}
+
+a.buy {
+	top: 20%;
+}
+
+a.preview {
+	bottom: 20%;
+}
+
+.info::after {
+	display: block;
+	position: absolute;
+	top: -8px;
+	left: 23px;
+	content: "";
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+    h3 {
+
+        color:blanchedalmond;
+    }
+.info h4 {
+	position: relative;
+	padding: 0 0 20px 0;
+	margin: 0 0 20px 0;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 25px;
+	color: #372f2b;
+	letter-spacing: -1px;
+}
+
+.info h4::after {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	content: "";
+	width: 0px;
+	height: 0px;
+	background: #3b86c4;
+}
+
+.info .description {
+	display: block;
+	padding-bottom: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #5f5f5f;
+}
+
+.info .price {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #372f2b;
+	line-height: 26px;
+}
+
+#ProductsTable {
+    width: 960px;
+}
+
+
+.time {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #372f2b;
+	background: url("../img/clock-icon.png") no-repeat;
+	background-position: 0 2px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 15px;
+}
+
+.rating span.star {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+}
+
+.rating span.star:hover {
+    cursor: pointer;
+}
+
+.rating span.star:before {
+    content: "\f006";
+    padding-right: 5px;
+    color: #999;
+}
+
+.rating span.star:hover:before, .rating span.star:hover ~ span.star:before {
+    content: "\f005";
+    color: #e3cf7a;
+    
+}
+
+
+
+
+</style>
+
+
+
+
+<html>
+
+<body>
+  
+    <div class="row">
+        <div class="col-md-4">
+            <p id="k" style="color:#e0a312"> Here you can choose what product to buy</p>
+        </div>
+        <div>
+            <h3>Our Products</h3><br />
+        </div>
+        <div align="center">
+
+        </div>
+        <div id="status"></div>
+        <div align="center">
+       
+            <div id="ProductsTable">
+
+            </div>
+        </div>
+    </div>
+    <script lang="javascript">
+
+
+        $("#status").text("Loading Table...");
+        $.get("getProductsByJSON", null, bindData);
+
+        function bindData(ProductList) {
+            window.ProductList = ProductList;
+            $("#ProductsTable").find("tr:gt(0)").remove();
+            var tbl = $("#ProductsTable");
+            for (i = 0; i < ProductList.length; i++) {
+                if (ProductList[i].Quantity <= 0) {
+                    var newRow = '<div class="info"><h4>' + ProductList[i].Model + '</h4>' +
+                        '<span class="description">' + ProductList[i].Type + '</span>' +
+                        '<span class="price">' + ProductList[i].Price + '$</span>' +
+                        '<a color:#ff0000 class="btn btn-danger pull-right"  onClick="addToCart(' + i + ')" href="#"><i  class="icon-shopping-cart"></i>Out of stock!</a></div >';
+
+                }
+                else {
+                    var newRow = '<div class="info"><h4>' + ProductList[i].Model + '</h4>' +
+                        '<span class="description">' + ProductList[i].Type + '</span>' +
+                        '<span class="price">' + ProductList[i].Price + '$</span>' +
+                        '<a class="btn btn-info pull-right" onClick="addToCart(' + i + ')" href="#"><i class="icon-shopping-cart"></i> Add To Cart</a></div >';
+                }
+                tbl.append(newRow);
+
+
+            }
+
+
+
+            $("#status").text("")
+        }
+
+        function addToCart(index) {
+            var product = window.ProductList[index];
+            console.log(product);
+            var tbl = $("#ProductsTable");
+                if (product.Quantity == 0) {
+                    throw "The item is out of stock";
+                    window.confirm("The item is out of stock");
+                    return
+                }
+                var url = '@Url.Action("AddToCart", "Buying")';
+                var data = { Model: product.Model, Type: product.Type, Price: product.Price };
+                $.post(url, data, null);
+                reloadPage();
+        }
+        function reloadPage() {
+            window.location.reload()
+        }
+
+
+
+    </script>
+
+
+
+</body>
+</html>
